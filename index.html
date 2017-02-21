@@ -1,118 +1,243 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/monosocialiconsfont.css">
-    <link rel="stylesheet" href="css/style.css">
+    <title>Заборы под ключ</title>
+    <script src="public/js/script.js"></script>
+    <link rel="stylesheet" href="./public/css/style.css">
 </head>
 <body>
-<div class="container">
-    <header>
-        <div class="header clear-fix">
-            <div class="logo">
-                <a href="#">
-                    <img src="img/logo.jpg" alt="logo">
-                </a>
-            </div>
-            <div class="header__menu--item">
-                <a href="#">
-                    &#xe082;
-                    <span>Portfolio</span>
-                </a>
-            </div>
-            <div class="header__menu--item">
-                <a href="#">
-                    &#xe001;
-                    <span>About me</span>
-                </a>
-            </div>
-            <div class="header__menu--item">
-                <a href="#">
-                    &#xe024;
-                    <span>Contact</span>
-                </a>
-            </div>
-        </div> <!-- header -->
-    </header>
-    <main>
-        <div class="main">
-            <div class="main__portfolio clear-fix">
-                <div class="main__portfolio--hexagon">
-                    <a href=""></a>
-                    <div class="corner1"></div>
-                    <div class="corner2"></div>
-                </div> <!-- main__portfolio--hexagon -->
-                <div class="main__portfolio--hexagon">
-                    <a href=""></a>
-                    <div class="corner1"></div>
-                    <div class="corner2"></div>
-                </div> <!-- main__portfolio--hexagon -->
-                <div class="main__portfolio--hexagon">
-                    <a href=""></a>
-                    <div class="corner1"></div>
-                    <div class="corner2"></div>
-                </div> <!-- main__portfolio--hexagon -->
-                <div class="main__portfolio--hexagon">
-                    <a href=""></a>
-                    <div class="corner1"></div>
-                    <div class="corner2"></div>
-                </div> <!-- main__portfolio--hexagon -->
-                <div class="main__portfolio--hexagon">
-                    <a href=""></a>
-                    <div class="corner1"></div>
-                    <div class="corner2"></div>
-                </div> <!-- main__portfolio--hexagon -->
-                <div class="main__portfolio--hexagon">
-                    <a href=""></a>
-                    <div class="corner1"></div>
-                    <div class="corner2"></div>
-                </div> <!-- main__portfolio--hexagon -->
-                <div class="main__portfolio--hexagon">
-                    <a href=""></a>
-                    <div class="corner1"></div>
-                    <div class="corner2"></div>
-                </div> <!-- main__portfolio--hexagon -->
-                <div class="main__portfolio--hexagon">
-                    <a href=""></a>
-                    <div class="corner1"></div>
-                    <div class="corner2"></div>
-                </div> <!-- main__portfolio--hexagon -->
-                <div class="main__portfolio--hexagon">
-                    <a href=""></a>
-                    <div class="corner1"></div>
-                    <div class="corner2"></div>
-                </div> <!-- main__portfolio--hexagon -->
-                <button class="more clear-fix">More</button>
-            </div> <!-- main_portfolio -->
-            <div class="about">
-                <img src="" alt="">
-                <span></span>
-            </div> <!-- about -->
-            <div class="contact">
-                <span></span>
-            </div> <!-- contact -->
-        </div> <!-- main -->
-    </main>
-    <footer>
-        <div class="footer">
-            <span class="footer__copyright">Copyright © 2016 by Ilia Yanovoy</span>
-            <ul class="footer__social">
-                <li class="footer__social--icon">
-                    <a href="#">&#xe052;</a>
-                </li>
-                <li class="footer__social--icon">
-                    <a href="#">&#xe027;</a>
-                </li>
-                <li class="footer__social--icon">
-                    <a href="#">&#xe037;</a>
-                </li>
-            </ul> <!-- footer__social -->
-        </div> <!-- footer -->
-    </footer>
-</div> <!-- container -->
-<script src="js/jquery-1.10.2.min.js"></script>
-<script src="js/script.js"></script>
+<header id="header">
+    <a href="#" class="logo"><img src="./public/images/logo.png" alt="logo" class="header__logo"></a>
+    <div class="header__number">
+        <div class="phone"></div>
+        <span class="header__number--link">+ 7 (985) 198-75-25</span>
+        <div class="phone"></div>
+        <span class="header__number--link">+ 7 (495) 970-77-25</span>
+    </div>
+    <div class="header__message">
+        <div class="message"></div>
+        <span>1987525@mail.ru</span>
+        <input type="text" placeholder="Поиск">
+        <div class="search"></div>
+    </div>
+    <div class="header__buttons">
+        <div class="call__feedback"><a href="">Заказать звонок</a></div>
+        <div class="calculator"><a href="">Онлайн калькулятор</a></div>
+        <div class="call__gager"><a href="">Вызов замерщика</a></div>
+    </div>
+</header>
+
+<div id="header__menu">
+    <ul class="header__menu">
+        <li class="header__menu--item">
+            <a href="#" class="header__menu--link">О компании</a>
+        </li>
+        <li class="header__menu--item">
+            <a href="#" class="header__menu--link">Цены</a>
+        </li>
+        <li class="header__menu--item">
+            <a href="#" class="header__menu--link">Информация клиентам</a>
+        </li>
+        <li class="header__menu--item">
+            <a href="#" class="header__menu--link">Гарантия и качество</a>
+        </li>
+        <li class="header__menu--item">
+            <a href="#" class="header__menu--link">Фотогаллереи</a>
+        </li>
+        <li class="header__menu--item">
+            <a href="#" class="header__menu--link">Новости</a>
+        </li>
+        <li class="header__menu--item">
+            <a href="#" class="header__menu--link">Статьи</a>
+        </li>
+        <li class="header__menu--item">
+            <a href="#" class="header__menu--link">Контакты</a>
+        </li>
+    </ul>
+</div>
+<div id="slider">
+
+</div>
+<ul id="slider__menu">
+    <li class="slider__menu--item">
+        <span></span>
+        <p></p>
+    </li>
+    <li class="slider__menu--item">
+        <span></span>
+        <p></p>
+    </li>
+    <li class="slider__menu--item">
+        <span></span>
+        <p></p>
+    </li>
+</ul>
+<span></span>
+<div id="our__services">
+    <div class="service__item">
+        <img src="./public/images/service1.jpg" alt="build">
+        <span></span>
+        <div class="icon"></div>
+    </div>
+    <div class="service__item">
+        <img src="./public/images/service2.jpg" alt="gate">
+        <span></span>
+        <div class="icon"></div>
+    </div>
+    <div class="service__item">
+        <img src="./public/images/service3.jpg" alt="area">
+        <span></span>
+        <div class="icon"></div>
+    </div>
+    <div class="service__item">
+        <img src="./public/images/service4.jpg" alt="shed">
+        <span></span>
+        <div class="icon"></div>
+    </div>
+    <div class="service__item">
+        <img src="./public/images/service5.jpg" alt="drainage">
+        <span></span>
+        <div class="icon"></div>
+    </div>
+</div>
+<span></span>
+<div id="work_for_you">
+    <div class="work_for_you--item">
+        <div class="icon"></div>
+        <span></span></div>
+    <div class="work_for_you--item">
+        <div class="icon"></div>
+        <span></span></div>
+    <div class="work_for_you--item">
+        <div class="icon"></div>
+        <span></span></div>
+    <div class="work_for_you--item">
+        <div class="icon"></div>
+        <span></span></div>
+    <div class="work_for_you--item">
+        <div class="icon"></div>
+        <span></span></div>
+    <div class="work_for_you--item">
+        <div class="icon"></div>
+        <span></span></div>
+    <div class="work_for_you--item">
+        <div class="icon"></div>
+        <span></span></div>
+    <div class="work_for_you--item">
+        <div class="icon"></div>
+        <span></span></div>
+    <div class="work_for_you--item">
+        <div class="icon"></div>
+        <span></span></div>
+    <div class="work_for_you--item">
+        <div class="icon"></div>
+        <span></span></div>
+    <div class="work_for_you--item">
+        <div class="icon"></div>
+        <span></span></div>
+    <div class="work_for_you--item">
+        <div class="icon"></div>
+        <span></span></div>
+</div>
+<div id="bonus">
+    <span></span>
+    <p></p>
+    <p></p>
+    <div class="bonus_for_home">
+        <ul class="bonus_for_home__list">
+            <li class="bonus_for_home--item"></li>
+            <li class="bonus_for_home--item"></li>
+            <li class="bonus_for_home--item"></li>
+            <li class="bonus_for_home--item"></li>
+            <li class="bonus_for_home--item"></li>
+        </ul>
+        <span></span>
+    </div>
+    <div class="bonus__add">
+        <ul class="bonus__add--list">
+            <li class="bonus__add--item"></li>
+            <li class="bonus__add--item"></li>
+            <li class="bonus__add--item"></li>
+            <li class="bonus__add--item"></li>
+            <li class="bonus__add--item"></li>
+            <li class="bonus__add--item"></li>
+            <li class="bonus__add--item"></li>
+            <li class="bonus__add--item"></li>
+        </ul>
+    </div>
+    <div class="bonus__feedback">
+        <ul class="bonus__add--list">
+            <li class="bonus__add--item"></li>
+            <li class="bonus__add--item"></li>
+        </ul>
+    </div>
+</div>
+<div id="producers">
+    <div class="producer__item"><img src="./public/images/came.jpg" alt="came"></div>
+    <div class="producer__item"><img src="./public/images/nice.jpg" alt="nice"></div>
+    <div class="producer__item"><img src="./public/images/finfold.jpg" alt="finfold"></div>
+    <div class="producer__item"><img src="./public/images/grandline.jpg" alt="grandline"></div>
+    <div class="producer__item"><img src="./public/images/oleomac.jpg" alt="oleomac"></div>
+    <div class="producer__item"><img src="./public/images/severstal.jpg" alt="severstal"></div>
+    <div class="producer__item"><img src="./public/images/stihl.jpg" alt="stihl"></div>
+    <div class="producer__item"><img src="./public/images/metalprof.jpg" alt="metalprof"></div>
+</div>
+<div id="our_works">
+    <span></span>
+    <div class="our_works__slider">
+
+    </div>
+    <a href="#" class="our_works__all"></a>
+</div>
+<div id="feedback">
+    <span></span>
+    <p class="feedback__field"></p><input type="text" class="feedback__input">
+    <p class="feedback__field"></p><input type="number" class="feedback__input">
+    <div class="call__feedback"></div>
+    <span class="news"></span>
+</div>
+<div class="news">
+    <div class="news__item">
+        <img src="./public/images/news1.jpg" alt="news" class="news__image">
+        <span class="news__header"></span>
+        <p class="news__article"></p>
+    </div>
+    <div class="news__item">
+        <img src="./public/images/news2.jpg" alt="news" class="news__image">
+        <span class="news__header"></span>
+        <p class="news__article"></p>
+    </div>
+</div>
+<footer id="footer">
+    <ul class="footer__menu">
+        <li class="footer--item"></li>
+        <li class="footer--item"></li>
+        <li class="footer--item"></li>
+        <li class="footer--item"></li>
+        <li class="footer--item"></li>
+        <li class="footer--item"></li>
+        <li class="footer--item"></li>
+        <li class="footer--item"></li>
+    </ul>
+    <div class="footer__information"><img src="" alt="" class="footer--image">
+        <div class="footer--article">
+            <div class="icon"></div>
+            <span></span>
+            <p></p>
+        </div>
+        <div class="footer--article">
+            <div class="icon"></div>
+            <span></span>
+            <p></p>
+        </div>
+        <div class="footer--article">
+            <div class="icon"></div>
+            <span></span>
+            <p></p>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
+

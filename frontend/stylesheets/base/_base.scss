@@ -1,0 +1,61 @@
+.phone, .message, .search {
+  width: 13px;
+  height: 14px;
+  margin: 5px 10px;
+  background-image: url("../images/header_sprite.png");
+}
+
+.message {
+  width: 17px;
+  background: url("../images/header_sprite.png") -14px 0 no-repeat;
+}
+
+.search {
+  background: url("../images/header_sprite.png") 35px 0 no-repeat;
+}
+
+.call__feedback, .call__gager, .calculator {
+  height: 40px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.call__feedback {
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(208, 194, 166);
+  border-radius: 8px;
+  background: url("../images/btn_feedback_bg.png");
+  box-shadow: inset 1px 1.732px 1px 0 rgba(0, 0, 0, 0.09);
+}
+
+.call__feedback:hover {
+  border-color: #AE8748;
+}
+
+.calculator {
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(189, 194, 175);
+  border-radius: 8px;
+  background: url("../images/btn_calc_bg.png");
+  box-shadow: inset 1px 1.732px 1px 0 rgba(0, 0, 0, 0.09);
+}
+
+.calculator:hover {
+  border-color: #79A545;
+}
+
+.call__gager {
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(190, 190, 190);
+  border-radius: 8px;
+  background-image: url("../images/btn_gager_bg.png");
+  box-shadow: inset 1px 1.732px 1px 0 rgba(0, 0, 0, 0.09);
+}
+
+.call__gager:hover {
+  border-color: #636060;
+}
