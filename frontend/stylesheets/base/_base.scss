@@ -1,3 +1,7 @@
+body, html {
+  //min-width: 1200px;
+}
+
 .phone, .message, .search {
   width: 13px;
   height: 14px;
@@ -11,7 +15,9 @@
 }
 
 .search {
-  background: url("../images/header_sprite.png") 35px 0 no-repeat;
+  width: 17px;
+  margin-left: -25px;
+  background: url("../images/header_sprite.png") -31px 0 no-repeat;
 }
 
 .call__feedback, .call__gager, .calculator {
@@ -19,6 +25,10 @@
   padding: 5px;
   display: flex;
   align-items: center;
+  font-size: 14px;
+  font-family: "Segoe UI", sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.286;
 }
 
 .call__feedback {
@@ -59,3 +69,110 @@
 .call__gager:hover {
   border-color: #636060;
 }
+
+.icon {
+  display: inline-block;
+  flex: 0 0 auto;
+  width: 48px;
+  height: 48px;
+  margin: 10px 20px;
+  background: url("../images/works_sprite.png") 0 0 no-repeat;
+}
+
+.block__header {
+  display: block;
+  position: relative;
+  margin: 40px auto -2px;
+  font-size: 36px;
+  font-family: "Segoe UI", sans-serif;
+  color: rgb(68, 68, 70);
+  line-height: 0.637;
+  text-align: center;
+  z-index: 150;
+}
+
+#procents {
+
+}
+
+#protection {
+  background: url("../images/works_sprite.png") -48px 0 no-repeat;
+}
+
+#lists {
+  background: url("../images/works_sprite.png") -96px 0 no-repeat;
+}
+
+#road {
+  background: url("../images/works_sprite.png") -144px 0 no-repeat;
+}
+
+
+#list {
+  background: url("../images/works_sprite.png") -192px 0 no-repeat;
+}
+
+#border {
+  background: url("../images/works_sprite.png") -240px 0 no-repeat;
+}
+
+#procent {
+  background: url("../images/works_sprite.png") -288px 0 no-repeat;
+}
+
+#like {
+  background: url("../images/works_sprite.png") -384px 0 no-repeat;
+}
+
+
+#money {
+  background: url("../images/works_sprite.png") -432px 0 no-repeat;
+}
+
+#settings {
+  background: url("../images/works_sprite.png") -480px 0 no-repeat;
+}
+
+#gift {
+  background: url("../images/works_sprite.png") -528px 0 no-repeat;
+}
+
+#paint {
+  background: url("../images/works_sprite.png") -576px 0 no-repeat;
+}
+
+.with_green_line {
+  width: 686px;
+  padding-bottom: 17px;
+  border-bottom: 2px solid #a5c05f;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.feedback__header {
+  width: 750px;
+}
+
+.news__container{
+  width: 1150px;
+  margin: 0 auto;
+}
+
+.news__header{
+  width: 130px;
+  margin: 40px 0 0;
+}
+
+//.plus, .lock {
+//  width: 40px;
+//  height: 40px;
+//  border-style: solid;
+//  border-width: 3px;
+//  border-color: rgb(208, 194, 166);
+//  border-radius: 8px;
+//  background-color: rgb(186, 144, 63);
+//  box-shadow: inset 1px 1.732px 1px 0px rgba(0, 0, 0, 0.09);
+//}

@@ -17,7 +17,7 @@ gulp.task('sass', function () {
         .pipe(autoprefixer({
         browsers: ['last 15 versions']
     }))
-        .pipe(cleanCSS({compatibility: 'ie10'}))
+        // .pipe(cleanCSS({compatibility: 'ie10'}))
         .pipe(sourcemaps.write())
         .pipe(gulp.dest('./public/css/'));
 });
@@ -46,17 +46,17 @@ gulp.task('image:optimization', function (){
 });
 
 gulp.task('uglify', function() {
-    gulp.src('./frontend/js/script.js')
+    gulp.src('./frontend/js/**/*.js')
         .pipe(uglify())
         .pipe(gulp.dest('./public/js/'))
 });
 
 gulp.task('font:optimize', function () {
-    return gulp.src('./frontend/fonts/*.ttf')
+    return gulp.src('./frontend/fonts/**/*.ttf')
         .pipe(fontmin({
             text: 'It is a 3.14zdec'
         }))
-        .pipe(gulp.dest('./public/fonts'));
+        .pipe(gulp.dest('./public/fonts/'));
 });
 
 gulp.task('js', ['uglify']);
