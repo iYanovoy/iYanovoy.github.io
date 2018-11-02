@@ -1,27 +1,191 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Web Starter Kit</title>
-  <link media="all" rel="stylesheet" href="assets/css/vendor.min.css">
-  <link media="all" rel="stylesheet" href="assets/css/style.min.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just Coded </title>
+    <link media="all" rel="stylesheet" href="assets/css/vendor.min.css">
+    <link media="all" rel="stylesheet" href="assets/css/style.min.css">
 </head>
 
 <body>
-  <div id="wrapper">
-    <div class="entry-section">
-      <div id="home-canvas"></div>
+<header class="header">
+    <div class="header__wrapper content">
+        <div class="header__logo">
+            <a href="" class="header__logo-link">
+                <img src="./src/images/fapor_logo.png" alt="Fapor" class="header__logo-image">
+            </a>
+        </div>
+        <nav class="header__navigation">
+            <div class="header__navigation-item">
+                <a href="#" class="header__navigation-link">Home</a>
+            </div>
+            <div class="header__navigation-item active">
+                <a href="#" class="header__navigation-link">About</a>
+            </div>
+            <div class="header__navigation-item">
+                <a href="#" class="header__navigation-link">Service</a>
+            </div>
+            <div class="header__navigation-item">
+                <a href="#" class="header__navigation-link">Portfolio</a>
+            </div>
+            <div class="header__navigation-item">
+                <a href="#" class="header__navigation-link">Contact</a>
+            </div>
+        </nav>
     </div>
-    <section class="starter-box">
-      <h1>JustCoded</h1>
-      <p>Web Starter Kit</p>
-    </section>
-  </div>
-  <script src="assets/js/vendor.min.js" defer></script>
-  <script src="assets/js/app.js" defer></script>
+    <div class="header__slider">
+        <div class="header__slide">
+            <h4 class="header__slide-text content">More About us</h4>
+        </div>
+    </div>
+</header>
+<div class="management main-content">
+    <h6 class="management__header">Management</h6>
+    <ul class="management__list">
+        <li class="management__item">
+            <div class="management__photo">
+                <img src="./src/images/manager1.jpg" alt="Courteney Cox" class="management__photo-link">
+            </div>
+            <div class="management__about">
+                <div class="management__info">
+                    <span class="management__name">Courteney Cox</span>
+                    <span class="management__position">Marketing Manager</span>
+                </div>
+                <ul class="management__social-networks">
+                    <li class="management__social-network facebook"></li>
+                    <li class="management__social-network tweeter"></li>
+                    <li class="management__social-network gplus"></li>
+                </ul>
+            </div>
+        </li>
+        <li class="management__item">
+            <div class="management__photo">
+                <img src="./src/images/manager2.jpg" alt="Matt LeBlanc" class="management__photo-link">
+            </div>
+            <div class="management__about">
+                <div class="management__info">
+                    <span class="management__name">Matt LeBlanc</span>
+                    <span class="management__position">Finance Manager</span>
+                </div>
+                <ul class="management__social-networks">
+                    <li class="management__social-network facebook"></li>
+                    <li class="management__social-network tweeter"></li>
+                    <li class="management__social-network gplus"></li>
+                </ul>
+            </div>
+        </li>
+        <li class="management__item">
+            <div class="management__photo">
+                <img src="./src/images/manager3.jpg" alt="David Schwimmer" class="management__photo-link">
+            </div>
+            <div class="management__about">
+                <div class="management__info">
+                    <span class="management__name">David Schwimmer</span>
+                    <span class="management__position">Creative Director</span>
+                </div>
+                <ul class="management__social-networks">
+                    <li class="management__social-network facebook"></li>
+                    <li class="management__social-network tweeter"></li>
+                    <li class="management__social-network gplus"></li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+    <button class="management__button">Show All</button>
+</div>
+<div class="feedback">
+    <h6 class="feedback__header">WHAT OUR CLIENTS SAY</h6>
+    <div class="feedback__slider swiper-container main-content">
+        <div class="feedback__arrow--left swiper-button-prev"></div>
+        <div class="swiper-wrapper">
+            <div class="feedback__slide-item swiper-slide">
+                <div class="feedback__avatar">
+                    <img class="feedback__avatar-image" src="./assets/images/our_client.jpg" alt="Larry Jane">
+                </div>
+                <p class="feedback__text">Praesent tincidunt molestie libero mollis porta. Faucibus leo,
+                    ac aliquet magna. Vivamus ullamcorper mollis leo, at sagittis mi pellentesque quis.
+                    Praesent nec elit tristique.</p>
+                <p class="feedback__name">Larry Jane</p>
+                <p class="feedback__position">General Manager</p>
+            </div>
+            <div class="feedback__slide-item swiper-slide">
+                <div class="feedback__avatar">
+                    <img class="feedback__avatar-image" src="./assets/images/our_client.jpg" alt="Larry Jane">
+                </div>
+                <p class="feedback__text">Praesent tincidunt molestie libero mollis porta. Faucibus leo,
+                    ac aliquet magna. Vivamus ullamcorper mollis leo, at sagittis mi pellentesque quis.
+                    Praesent nec elit tristique.</p>
+                <p class="feedback__name">Larry Jane</p>
+                <p class="feedback__position">General Manager</p>
+            </div>
+            <div class="feedback__slide-item swiper-slide">
+                <div class="feedback__avatar">
+                    <img class="feedback__avatar-image" src="./assets/images/our_client.jpg" alt="Larry Jane">
+                </div>
+                <p class="feedback__text">Praesent tincidunt molestie libero mollis porta. Faucibus leo,
+                    ac aliquet magna. Vivamus ullamcorper mollis leo, at sagittis mi pellentesque quis.
+                    Praesent nec elit tristique.</p>
+                <p class="feedback__name">Larry Jane</p>
+                <p class="feedback__position">General Manager</p>
+            </div>
+        </div>
+        <div class="feedback__arrow--right swiper-button-next"></div>
+    </div>
+
+</div>
+<footer class="footer">
+    <div class="footer__wrapper">
+        <div class="footer__contact-information main-content">
+            <div class="footer__about-us">
+                <div class="footer__column">
+                    <h5 class="footer__column-header">ABOUT FAPOR</h5>
+                    <p class="footer__column-text">We are a fairly small, flexible design studio that designs for print
+                        and
+                        web.
+                        We work flexibly with clients to fulfil their design needs. Whether you need to create a brand
+                        from
+                        scratch,
+                        including marketing materials and a beautiful.</p>
+                </div>
+                <div class="footer__column">
+                    <h5 class="footer__column-header">Contact INFO</h5>
+                    <p class="footer__column-address">PO Box 17122 Nollins Street
+                        5034 Los Angelos</p>
+                    <p class="footer__column-contacts">Phone: 1800555.0658
+                        Email: support@fapor.com
+                        Web: fapor.com</p>
+                </div>
+                <div class="footer__column">
+                    <h5 class="footer__column-header">Subscribe to our newsletter</h5>
+                    <form action="#">
+                        <input class="footer__column-email"
+                               required
+                               type="email"
+                               pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                               placeholder="Enter your email address"/>
+                        <button class="footer__button-subscribe">Subscribe now</button>
+                        <p class="footer__column-contacts"></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright-wrapper">
+            <div class="footer__copyright main-content">
+                <span class="footer__copyright-text">© 2016  Fapor by Respotheme</span>
+                <div class="footer__social-networks">
+                    <a href="#" class="footer__social-network facebook"></a>
+                    <a href="#" class="footer__social-network tweeter"></a>
+                    <a href="#" class="footer__social-network google"></a>
+                    <a href="#" class="footer__social-network dribble"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="assets/js/vendor.min.js" defer></script>
+<script src="assets/js/app.js" defer></script>
 </body>
 
 </html>

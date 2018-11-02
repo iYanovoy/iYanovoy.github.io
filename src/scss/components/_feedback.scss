@@ -1,0 +1,83 @@
+.feedback {
+  height: 600px;
+  background-color: rgb(247, 247, 247);
+  padding: 115px 0;
+
+  &__header {
+    margin-bottom: 65px;
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+    color: rgb(36, 40, 47);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    &::after {
+      content: '';
+      display: block;
+      width: 78px;
+      height: 2px;
+      margin: 30px auto;
+      border-bottom: 2px solid #24282f;
+    }
+  }
+
+  &__slider {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__slide-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__arrow--right, &__arrow--left {
+    width: 10px;
+    height: 15px;
+    background: url("../images/arrow_sprite.png") 0 0 no-repeat;
+  }
+
+  &__arrow--right {
+    background-position-x: -10px;
+  }
+
+  &__avatar {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  &__text {
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    max-width: 850px;
+    line-height: 1.7;
+  }
+
+  &__name {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(181, 162, 99);
+    text-transform: uppercase;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  &__position {
+    margin: 0;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 1.714;
+    font-weight: 500;
+    text-align: center;
+
+  }
+
+}
