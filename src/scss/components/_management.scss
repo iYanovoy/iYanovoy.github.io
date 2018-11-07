@@ -117,10 +117,11 @@
     padding-left: 10px;
   }
 }
-@media screen and (min-width: 480px) and (max-device-width: 1024px) {
+@media screen and (max-device-width: 1024px) {
   .management {
     height: auto;
     padding-bottom: 40px;
+    padding-right: 0;
 
     &__list {
       flex-direction: column;

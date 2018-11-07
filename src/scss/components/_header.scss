@@ -70,9 +70,23 @@
   }
 }
 
-@media screen and (min-width: 480px) and (max-device-width: 1125px) {
+@media screen and (max-device-width: 1125px) {
   .header {
     padding: 0 10px;
+  }
+}
+
+@media screen and (max-device-width: 768px) {
+  .header__wrapper {
+    height: auto;
+  }
+
+  .header__navigation {
+    flex-direction: column;
+  }
+
+  .header__navigation-item {
+    padding: 10px;
   }
 }
 
