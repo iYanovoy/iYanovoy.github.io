@@ -2,11 +2,12 @@
 
 .management {
   height: 730px;
-  padding : 150px 0 30px;
+  width: 100%;
+  padding : 150px 60px 0 0;
   background-color: #ffffff;
 
   &__header {
-    margin-bottom: 35px;
+    margin-bottom: 32px;
     font-size: 24px;
     font-family: "Raleway", sans-serif;
     color: rgb(36, 40, 47);
@@ -18,26 +19,28 @@
       display: block;
       width: 78px;
       height: 2px;
-      margin: 30px auto;
+      margin: 28px auto;
       border-bottom: 2px solid $border-color;
     }
   }
 
   &__list {
     display: flex;
-    justify-content: center;
+    width: 100%;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 40px;
-  }
-
-  &__item {
-    margin: 0 50px;
   }
 
   &__photo {
     width: 310px;
     height: 300px;
     margin-bottom: 28px;
+
+    &-link {
+      width: 100%;
+      height: 100%;
+    }
   }
 
   &__about {
@@ -105,5 +108,28 @@
     font-family: "Open Sans", sans-serif;
     color: rgb(36, 40, 47);
     text-transform: uppercase;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-device-width: 1125px) {
+  .management {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+@media screen and (min-width: 480px) and (max-device-width: 1024px) {
+  .management {
+    height: auto;
+    padding-bottom: 40px;
+
+    &__list {
+      flex-direction: column;
+      margin-bottom: 0;
+    }
+
+    &__item {
+      margin-bottom: 60px;
+    }
+
   }
 }
