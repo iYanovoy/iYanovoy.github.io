@@ -120,8 +120,7 @@
 @media screen and (max-device-width: 968px) {
   .management {
     height: auto;
-    padding-bottom: 40px;
-    padding-right: 0;
+    padding: 40px 0;
 
     &__list {
       flex-direction: column;

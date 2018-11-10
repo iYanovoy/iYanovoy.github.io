@@ -77,16 +77,21 @@
 }
 
 @media screen and (max-device-width: 768px) {
-  .header__wrapper {
-    height: auto;
-  }
+  .header {
+    &__wrapper {
+      height: auto;
+    }
 
-  .header__navigation {
-    flex-direction: column;
-  }
+    &__navigation {
+      flex-direction: column;
+    }
 
-  .header__navigation-item {
-    padding: 10px;
+    &__navigation-item {
+      padding: 10px;
+    }
+    &__slide-text {
+      font-size: 24px;
+    }
   }
 }
 
