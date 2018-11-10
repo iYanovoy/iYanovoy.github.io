@@ -33,6 +33,7 @@ node_modules/
 node_modules
 *.map
 .tmp
+.package-lock.json
 tmp
 
 # wordpress configs and uploads
